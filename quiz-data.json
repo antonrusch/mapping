@@ -1,0 +1,262 @@
+[
+    {
+        "text": "Totholz an Brocken-Ostseite",
+        "textarea": "Die Beobachtung zeigt einen Einblick in die Landschaft, die uns fast die gesamte Wanderung umgeben hat – interessant daran scheint, dass es die Menschen auch auf den Brocken zieht, um Zeit in der Natur zu verbringen, obwohl hier eindeutig kein gesunder Wald mehr steht.",
+        "image": "1769634778-5131.jpg",
+        "choices": [
+            "D"
+        ],
+        "open_answer": "",
+        "x": 50,
+        "y": 93,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": 133,
+        "rotationTextD": "geht \/ beeinflusst",
+        "timestamp": "2026-01-04 15:10:00"
+    },
+    {
+        "text": "Sandsäcke",
+        "textarea": "Gefunden abseits der asphaltierten Straße entlang der Bahnstrecke weiter unten am Berg.",
+        "image": "1769633581-2443.jpg",
+        "choices": [
+            "B"
+        ],
+        "open_answer": "",
+        "x": 39,
+        "y": 89,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": 221,
+        "rotationTextB": "unauffällig \/ notwendig",
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 15:12:00"
+    },
+    {
+        "text": "Schild zur Sortierung der Brockenstraße",
+        "textarea": "Verweist darauf, dass Wandernde links gehen soll.",
+        "image": "1769635002-8799.jpg",
+        "choices": [
+            "A"
+        ],
+        "open_answer": "",
+        "x": 45,
+        "y": 70,
+        "rotationAngleA": 313,
+        "rotationTextA": "wirtschaftlich \/ auffällig",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 15:13:00"
+    },
+    {
+        "text": "Brockenstraße",
+        "textarea": "Während der Wanderung begegnen uns hier mehrere Autos mit Werbung der Brockenhotels, unzählige Wander*innen – trotz des Wetters – und passend dazu, auch das Schneeräumfahrzeug.",
+        "image": "1769633985-5962.jpg",
+        "choices": [
+            "A"
+        ],
+        "open_answer": "",
+        "x": 46,
+        "y": 57,
+        "rotationAngleA": 180,
+        "rotationTextA": "unauffällig",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 15:30:00"
+    },
+    {
+        "text": "Fichten an der Baumgrenze",
+        "textarea": "200 Meter sind kaum noch Bäume zu finden. Diese Fichten hier stehen neben der Brockenstraße direkt im stürmenden Wind.",
+        "image": "1769635384-7842.jpg",
+        "choices": [
+            "D"
+        ],
+        "open_answer": "",
+        "x": 44,
+        "y": 53,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": 312,
+        "rotationTextD": "kommt \/ autonom",
+        "timestamp": "2026-01-04 15:31:00"
+    },
+    {
+        "text": "Schienenbagger",
+        "textarea": "Nur schwer zu beurteilen, da er fast komplett mit Eis bedeckt war.",
+        "image": "1769634516-7211.jpg",
+        "choices": [
+            "B"
+        ],
+        "open_answer": "",
+        "x": 41,
+        "y": 51,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": 222,
+        "rotationTextB": "unauffällig \/ notwendig",
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 15:33:00"
+    },
+    {
+        "text": "Unimog",
+        "textarea": "Der Winterdienst scheint notwendig zu sein, um den Brocken weiter erreichen zu können – allerdings muss man zeitig zur Seite springen.",
+        "image": "1769633768-6812.jpg",
+        "choices": [
+            "B"
+        ],
+        "open_answer": "",
+        "x": 35,
+        "y": 50,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": 310,
+        "rotationTextB": "störend \/ notwendig",
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 15:40:00"
+    },
+    {
+        "text": "Kalte Steine",
+        "textarea": "Die Steine sind mit gefrorenem Schnee bedeckt, der durch der starken Wind besondere Struktur aufweist.",
+        "image": "1769599483-4163.jpg",
+        "choices": [
+            "C"
+        ],
+        "open_answer": "",
+        "x": 35,
+        "y": 47,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": 270,
+        "rotationTextC": "kalt",
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 15:41:00"
+    },
+    {
+        "text": "Granit",
+        "textarea": "Die Steine sind die letzten ihrer Art und können nun nur noch erhalten bleiben – während der militärischen Besetzung lässt sich vermuten, dass ein großer Teil der Steine entweder entfernt oder zumindest bewegt worden sind.",
+        "image": "1769432508-3741.jpg",
+        "choices": [
+            "D"
+        ],
+        "open_answer": "",
+        "x": 31,
+        "y": 48,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": 177,
+        "rotationTextD": "geht \/ beeinflusst",
+        "timestamp": "2026-01-04 15:50:00"
+    },
+    {
+        "text": "Schlitten",
+        "textarea": "Hier abgebildet als Hilfsmittel für den Transport, bergab häufig genutzt, um Bestzeiten aufzustellen. (Quick-Tip: uns kamen auch Leute mit Tablets aus dem Restaurant entgegen)",
+        "image": "1769636273-9807.jpg",
+        "choices": [
+            "B"
+        ],
+        "open_answer": "",
+        "x": 42,
+        "y": 50,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": 50,
+        "rotationTextB": "störend \/ leicht zu ersetzen",
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 16:00:00"
+    },
+    {
+        "text": "Schnelles Schild",
+        "textarea": "Der Metallpol des Schilds ist gefroren. Das Eis ist ungleichmäßig verteilt und weist auf der Bergseite mehr Eis auf als auf der Talseite.",
+        "image": "1769599266-4646.jpg",
+        "choices": [
+            "C"
+        ],
+        "open_answer": "",
+        "x": 92,
+        "y": 89,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": 271,
+        "rotationTextC": "Problem \/ kalt",
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-04 17:00:00"
+    },
+    {
+        "text": "",
+        "textarea": "",
+        "image": null,
+        "choices": [
+            "A"
+        ],
+        "open_answer": "",
+        "x": 57,
+        "y": 62,
+        "rotationAngleA": 301,
+        "rotationTextA": "wirtschaftlich \/ auffällig",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-04-16 11:18:20"
+    },
+    {
+        "text": "test neues interface",
+        "textarea": "Description of new interwfrcq",
+        "image": null,
+        "choices": [
+            "D"
+        ],
+        "open_answer": "",
+        "x": 45,
+        "y": 46,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-05-31 17:37:09"
+    }
+]

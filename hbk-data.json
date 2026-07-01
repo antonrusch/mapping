@@ -1,0 +1,162 @@
+[
+    {
+        "text": "Vogelnest",
+        "textarea": "Wird scheinbar gerne genutzt – soweit sichtbar steht die Tür auch allen offen.",
+        "image": "1769761374-3589.jpeg",
+        "choices": [
+            "A"
+        ],
+        "open_answer": "",
+        "x": 31,
+        "y": 52,
+        "rotationAngleA": 224,
+        "rotationTextA": "öffentlich \/ unauffällig",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-30 09:22:54"
+    },
+    {
+        "text": "Antons Puls",
+        "textarea": "Er ist nervös",
+        "image": "1769782768-4941.jpg",
+        "choices": [
+            "C"
+        ],
+        "open_answer": "",
+        "x": 25,
+        "y": 47,
+        "rotationAngleA": 79,
+        "rotationTextA": "auffällig \/ privat",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": 314,
+        "rotationTextC": "Problem \/ kalt",
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-30 15:19:28"
+    },
+    {
+        "text": "Anton",
+        "textarea": "Anton hält eine Präsentation über dieses Tool.",
+        "image": "1769782884-7632.jpg",
+        "choices": [
+            "D"
+        ],
+        "open_answer": "",
+        "x": 24,
+        "y": 47,
+        "rotationAngleA": 346,
+        "rotationTextA": "öffentlich \/ auffällig",
+        "rotationAngleB": 74,
+        "rotationTextB": "störend \/ leicht zu ersetzen",
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": 270,
+        "rotationTextD": "autonom",
+        "timestamp": "2026-01-30 15:21:24"
+    },
+    {
+        "text": "",
+        "textarea": "",
+        "image": null,
+        "choices": [
+            "C"
+        ],
+        "open_answer": "",
+        "x": 34,
+        "y": 46,
+        "rotationAngleA": 9,
+        "rotationTextA": "auffällig \/ privat",
+        "rotationAngleB": 88,
+        "rotationTextB": "störend \/ leicht zu ersetzen",
+        "rotationAngleC": 326,
+        "rotationTextC": "Problem \/ kalt",
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-30 15:21:47"
+    },
+    {
+        "text": "",
+        "textarea": "",
+        "image": null,
+        "choices": [
+            "A"
+        ],
+        "open_answer": "",
+        "x": 26,
+        "y": 47,
+        "rotationAngleA": 151,
+        "rotationTextA": "unauffällig \/ privat",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": 0,
+        "rotationTextD": "kommt",
+        "timestamp": "2026-01-30 15:22:09"
+    },
+    {
+        "text": "sassy sasquatch?",
+        "textarea": "sassy sasquatch mit schönen augen entdeckt",
+        "image": "1769783029-1096.jpeg",
+        "choices": [
+            "A"
+        ],
+        "open_answer": "",
+        "x": 21,
+        "y": 53,
+        "rotationAngleA": 73,
+        "rotationTextA": "auffällig \/ privat",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-30 15:23:49"
+    },
+    {
+        "text": "Pakete",
+        "textarea": "Pakete im White Cube in der Ecke",
+        "image": "1769783753-3987.jpeg",
+        "choices": [
+            "A"
+        ],
+        "open_answer": "",
+        "x": 25,
+        "y": 47,
+        "rotationAngleA": 135,
+        "rotationTextA": "unauffällig \/ privat",
+        "rotationAngleB": null,
+        "rotationTextB": null,
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": 356,
+        "rotationTextD": "kommt \/ autonom",
+        "timestamp": "2026-01-30 15:35:53"
+    },
+    {
+        "text": "Ladekabel",
+        "textarea": "Ein Ladekabel für den Laptop ist sehr notwendig",
+        "image": "1769783831-7005.jpg",
+        "choices": [
+            "B"
+        ],
+        "open_answer": "",
+        "x": 26,
+        "y": 49,
+        "rotationAngleA": null,
+        "rotationTextA": null,
+        "rotationAngleB": 270,
+        "rotationTextB": "notwendig",
+        "rotationAngleC": null,
+        "rotationTextC": null,
+        "rotationAngleD": null,
+        "rotationTextD": null,
+        "timestamp": "2026-01-30 15:37:11"
+    }
+]
