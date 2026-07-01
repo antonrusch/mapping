@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.22rem;
+}
+
+header {
+  width: 100dvw;
+  font-family: routed-gothic-wide;
+  position: fixed;
+  height: 2.44rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-bottom: 1px solid var(--formbackground);
+  backdrop-filter: blur(20px);
+  color: var(--text);
+}
+
+iframe {
+    width: 200px;
+    height: 100px;
+    pointer-events: none    ;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.layoutseite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--text); */
+    background-image: url(../brocken.avif);
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2.44rem;
+}
+
+.layout {
+    max-width: 800px;
+    background-color: var(--hellgrau);
+}
+
+.layout p {
+    font-family: routed-gothic;
+}
+
+.layout h1 {
+  font-family: routed-gothic-wide;
+  font-weight: normal;
+  margin-top: 1.22rem;
+}
+
+.text {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.22rem;
+    border-bottom: 1px solid var(--formbackground);
+}
+
+.editorial {
+    background-color: var(--textdetail);
+}
+
+.button {
+      display: flex;
+      width: 100%;
+      background-color: var(--textdetail);
+      color: var(--formbackground);
+      border: none;
+      padding-left: 1vw;
+      padding-bottom: 1vw;
+      padding-top: 1.22rem;
+      padding-bottom: 1.22rem;
+      font-family: routed-gothic;
+      border-bottom: 1px solid var(--formbackground);
+      align-items: center;
+      justify-content:center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+
+.button a {
+    text-decoration: none;
+    color: var(--formbackground);
+}
+
+.button img {
+    height: 2rem;
+    padding-top: 0.3rem;
+}
+
+    .menubutton {
+        display: none;
+    }
+
+    .menumobil {
+        display: none;
+    }
+
+.sources {
+  scroll-snap-type: y mandatory;
+          font-family: routed-gothic;
+        line-height: 120%;
+}
+
+.source-item {
+  scroll-snap-align: start;
+    scroll-margin-top: 5rem;
+  padding: 1rem 0;
+}
+
+sup a {
+  text-decoration: none;
+}
+
+sup[data-source] {
+  scroll-margin-top: 5rem;
+}
+
+.text li {
+    list-style: none;
+}
+
+.back {
+   text-decoration: none;
+       color: var(--formbackground);
+       border: 1px solid var(--formbackground);
+       border-radius: 25px;
+       padding-top: 1px;
+       padding-right: 4px;
+       padding-left: 4px;
+       padding-bottom: 1px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    
+    .layout {
+        width: 100dvw;
+        line-height: 120%;
+    }
+
+    * {
+        font-size: 1.12rem;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menubutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
+    }
+
+    .menubutton img {
+     height: 1.22rem;
+     display: block;
+    }
+
+    .x {
+        display: none;
+        font-size: 1.75rem;
+        line-height: 100%;
+        margin-bottom: 0.12rem;
+    }
+
+    .menumobil {
+        display: none;
+        position: fixed;
+        margin-top: 2.44rem;
+        backdrop-filter: blur(20px);
+        z-index: 20;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100dvw;
+    }
+
+    .menumobil a{
+        background-color: var(--hellgrau);
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0.61rem;
+        padding-top: 0.61rem;
+        text-decoration: none;
+        color: var(--formbackground);
+        font-family: routed-gothic-wide;
+    }
+
+    .close {
+        height: 450px;
+        width: 100dvw;
+    }
+
+
+
+}

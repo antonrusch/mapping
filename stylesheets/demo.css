@@ -1,0 +1,269 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-size: 1.22rem;
+  }
+
+  header {
+  width: 100dvw;
+  font-family: routed-gothic-wide !important;
+  position: fixed;
+  height: 2.44rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-bottom: 1px solid var(--text);
+  color: var(--text);
+  background-color: var(--formbackground);
+  }
+
+    header a {
+  text-decoration: none;
+  color: var(--text);
+  }
+
+  .menubutton {
+  display: none;
+  }
+
+  .menumobil {
+  display: none;
+  }
+
+
+  .demolayout {
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between;
+    }
+
+
+#eintragsliste {
+    background: var(--formbackground);
+    overflow-y:auto;
+    position:relative;
+    margin-top: 2.44rem;
+    /* min-width: calc(100vh - 2.44rem); */
+    width: 100%;
+    font-family: routed-gothic;
+    padding: 1vw;
+}
+
+.buttons {
+position:fixed;
+display: flex;
+flex-direction: row;
+gap: 1vw;
+width: 100%;
+padding: 1vw;
+bottom: 0;
+background-color: var(--formbackground);
+}
+
+#collapseAll, #preview, #zine {
+background: var(--textdetail);
+border:none;
+padding:0.3rem 0.6rem;
+cursor:pointer;
+font-size:0.9rem;
+color: var(--text);
+font-family: routed-gothic;
+}
+
+
+.entry {
+transition:background 0.2s, border-color 0.2s;
+border: 1px solid var(--text);
+padding-top: 0.61rem;
+padding-bottom: 0.61rem;
+margin-bottom: 1vw;
+}
+
+.entry h3 {
+    padding-left: 1vw;
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--text);
+}
+
+.entry-header {
+    margin:0;
+    cursor:pointer;
+    user-select:none;
+    display:flex;
+    align-items:center;
+}
+
+.entry-header::before {
+    content:">";
+    display:inline-block;
+    margin-right:0.5rem;
+    transition:transform 0.2s;
+    font-size: 0.7rem;
+}
+
+.entry.expanded .entry-header::before {
+    transform:rotate(90deg);
+}
+
+.entry-content {
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.35s ease;
+    padding-left: 1vw;
+    width: 90%;
+}
+
+.field {
+    color: var(--text);
+}
+
+.entry.expanded .entry-content {
+    max-height:2000px;
+}
+
+.abstand {
+    height: 10vh;
+}
+
+.highlight {
+    background:var(--background);
+}
+
+.entry img {
+    max-width:100%; 
+    height:auto;
+}
+
+.field { 
+    margin:0.2rem 0; word-break:break-word;
+}
+
+/* rechte Seite */
+#mapPane {
+    position:relative;
+    margin-top: 2.44rem;
+}
+
+#mapPane image {
+    width: 100%;
+    height: 100%;
+}
+
+#mapCanvas {
+    background-image: url(../brocken.avif);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: calc(100vh - 2.44rem);
+}
+
+
+.point {
+    cursor:pointer;
+}
+
+
+.active-point {
+    stroke: var(--formbackground);
+    stroke-width: 0.8;
+}
+
+
+  @media only screen and (max-width: 1024px) {
+
+  
+.demolayout {
+    height:100vh;
+    display:flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.buttons {
+    display: none;
+}
+
+#mapCanvas {
+    background-image: url(../brocken.avif);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 45vh;
+}
+
+#mapPane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 2.8rem;
+    margin-bottom: 0.4rem;
+}
+
+#eintragsliste {
+    margin-top: 0;
+}
+
+.menu {
+  display: none;
+}
+
+.menubutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1vw;
+}
+
+  .menubutton img {
+  height: 1.22rem;
+  display: block;
+  }
+
+  .x {
+  display: none;
+  font-size: 1.75rem;
+  line-height: 100%;
+  margin-bottom: 0.12rem;
+  }
+
+  .menumobil {
+  display: none;
+  position: fixed;
+  margin-top: 2.44rem;
+  backdrop-filter: blur(20px);
+  z-index: 20;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100dvw;
+  }
+
+  .menumobil a{
+  background-color: var(--hellgrau);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.61rem;
+  padding-top: 0.61rem;
+  text-decoration: none;
+  color: var(--formbackground);
+  font-family: routed-gothic-wide;
+  }
+
+  .close {
+  height: 450px;
+  width: 100dvw;
+  }
+
+
+
+  }

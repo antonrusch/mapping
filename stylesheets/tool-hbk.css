@@ -1,0 +1,407 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.22rem;
+  }
+
+  header {
+  width: 100dvw;
+  font-family: routed-gothic-wide;
+  position: fixed;
+  height: 2.44rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-bottom: 1px solid var(--formbackground);
+  backdrop-filter: blur(20px);
+  color: var(--text);
+  }
+
+  header a {
+  text-decoration: none;
+  color: var(--text);
+  }
+
+  .menubutton {
+  display: none;
+  }
+
+  .menumobil {
+  display: none;
+  }
+
+  body {
+  overflow-x: hidden;
+  }
+
+
+
+  
+
+  header {
+  width: 100dvw;
+  background-color: var(--formbackground);
+  color: var(--text);
+  font-family: routed-gothic-wide;
+  position: fixed;
+  height: 2.44rem;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  padding-left: 1vw;
+  }
+
+  .intro {
+  background-color: var(--textdetail);
+  width: 800px;
+  }
+
+  .intro p {
+  color: var(--formbackground);
+  padding-top: 3rem;
+  padding-bottom: 0.6rem;
+  font-family: routed-gothic;
+  line-height: 120%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  }
+
+  .formstyle2 {
+  background-color: var(--textdetail2);
+  }
+
+
+  .layoutseite, .einreichseite {
+  width: 100dvw;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  }
+
+
+
+
+  .layout {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--formbackground);
+  max-width: 800px;
+  }
+
+ 
+
+
+  .rechenscheibe, .rechenscheibe2, .rechenscheibe3, .rechenscheibe4 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  }
+
+.rechner, .rechner2, .rechner3, .rechner4 {
+  height: 40vh;
+  transform-origin: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rechner img, .rechner2 img, .rechner3 img, .rechner4 img {
+  height: 40vh;
+}
+
+  .aim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  }
+
+
+
+  p {
+  color: #ccc;
+  }
+
+
+
+  #rotationAngle {
+  display: none;
+  }
+
+  .matrix {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  }
+
+  .matrixzeileoben, .matrixzeileunten {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .matrix p {
+  font-family: routed-gothic;
+  font-size: 1rem;
+  }
+
+
+
+
+  .form-group {
+  background-color: var(--formbackground);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1vw;
+  padding: 1vw;
+  }
+
+  .form-group input {
+  max-width: 100%;
+  }
+
+  .form-group label {
+  color: var(--text);
+  font-family: routed-gothic;
+  }
+
+  #bild input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  }
+
+  .bildcontainer {
+  display: flex;
+  justify-content: center ;
+  }
+
+  .bildcontainer img {
+  max-height: 50vh;
+  max-width: 50vh;
+  }
+
+
+
+
+  input, textarea {
+  background-color: var(--formbackground);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: routed-gothic;
+  min-height: 1.22rem;
+
+  }
+
+  .options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  }
+
+  .options input {
+  appearance: none;
+
+  border-radius: 25%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999999;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+  }
+
+  .option input#choiceA:checked {
+  border: 8px solid var(--textdetail);
+  }
+  .option input#choiceB:checked {
+  border: 8px solid var(--textdetail2);
+  }
+  .option input#choiceC:checked {
+  border: 8px solid var(--textdetail3);
+  }
+  .option input#choiceD:checked {
+  border: 8px solid var(--textdetail4);
+  }
+
+
+
+
+  .svg-container {
+  height: 50vh;
+  background-image: url(../hbk.avif);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 50vh;
+  }
+
+
+  .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .svg-container svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+  .point {
+  r: 6px;
+  }
+
+  button {
+  display: block;
+  width: 100%;
+  background-color: var(--textdetail);
+  color: var(--formbackground);
+  border: none;
+  cursor: pointer;
+  padding-left: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1.22rem;
+  padding-bottom: 1.22rem;
+  font-family: routed-gothic;
+  }
+
+
+.beschreibung {
+  position: relative;
+  padding-top: 0.5rem;
+  height: 1.7rem;
+  overflow: hidden;
+  cursor: pointer;
+      transition: ease-in-out 0.2s;
+}
+
+.beschreibung p {
+  font-family: routed-gothic-narrow;
+  line-height: 120%;
+  color: var(--textdetail);
+  font-size: 1rem;
+
+      -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.close_beschreibung {
+  position: absolute;
+  top: 0.5rem;
+  right: 0px;
+  display: none;
+}
+
+  .beschreibung.expanded {
+    height:auto;
+    transition: ease-in-out 0.2s;
+  }
+  .beschreibung.expanded .close_beschreibung {
+    display:block;
+  }
+
+
+  /* Media Queries */
+  /* Mobil Portrait */
+
+  @media only screen and (max-width: 1024px) {
+
+  .layout {
+  max-width: 100dvw;
+  }
+
+  .layoutseite {
+    overflow: hidden;
+  }
+
+  .form-group {
+  padding-top: 1vw;
+  /* padding-bottom: 2.44rem; */
+  padding-bottom: 1rem;
+  }
+
+  .intro {
+  max-width: 100dvw;
+  }
+
+  .menu {
+  display: none;
+  }
+
+  .menubutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1vw;
+  }
+
+  .menubutton img {
+  height: 1.22rem;
+  display: block;
+  }
+
+  .x {
+  display: none;
+  font-size: 1.75rem;
+  line-height: 100%;
+  margin-bottom: 0.12rem;
+  }
+
+  .menumobil {
+  display: none;
+  position: fixed;
+  margin-top: 2.44rem;
+  backdrop-filter: blur(20px);
+  z-index: 20;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100dvw;
+  }
+
+  .menumobil a{
+  background-color: var(--hellgrau);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.61rem;
+  padding-top: 0.61rem;
+  text-decoration: none;
+  color: var(--formbackground);
+  font-family: routed-gothic-wide;
+  }
+
+  .close {
+  height: 450px;
+  width: 100dvw;
+  }
+
+
+  }
+
+
+
+
+
+

@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.22rem;
+    font-family: Arial;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+  width: 100dvw;
+  position: fixed;
+  height: 2.44rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-bottom: 1px solid var(--formbackground);
+  backdrop-filter: blur(20px);
+  color: var(--text);
+}
+
+iframe {
+    width: 200px;
+    height: 100px;
+    pointer-events: none    ;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.layoutseite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--border);
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2.44rem;
+}
+
+.layout {
+    max-width: 800px;
+    background-color: var(--border);
+}
+
+.layout h1 {
+  font-weight: normal;
+  margin-top: 1.22rem;
+}
+
+#braunschweig {
+    padding-left: 1vw;
+}
+
+.text, .currently {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.22rem;
+    border-bottom: 1px solid var(--formbackground);
+}
+
+.editorial {
+    background-color: var(--textdetail);
+}
+
+.fourteen-day {
+    padding: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.graph {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    height: 20vh;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+#graph {
+    width: 100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.graph-boxes {
+    max-width: 800px;
+    width: 100%;
+    height: 20vh;
+    /* background-color: red; */
+    opacity: 0.5;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+#one {
+    height: 100%;
+    width: 4%;
+    border: 2px solid black;
+    margin-left: 22%;
+}
+
+#two {
+    height: 100%;
+    width: 9%;
+    border: 2px solid black;
+    margin-left: 13%;
+}
+
+#three {
+    height: 100%;
+    width: 9.2%;
+    border: 2px solid black;
+    margin-left: 4.2%;
+}
+
+#four {
+    height: 100%;
+    width: 18%;
+    border: 2px solid black;
+    margin-left: 1.4%;
+}
+
+#one:hover {
+    border: 3px solid green;
+}
+
+.areas {
+    padding: 1vw;
+}
+
+.map-layout {
+    height: 100vw;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.map-viewbox img {
+    width: 100%;
+    height: 100vw;
+    object-fit: cover;
+}
+
+.areas {
+    position: absolute;
+}
+
+.shade-logo {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shade-logo img {
+    width: 100%;
+    object-fit: contain;
+    height: 5vh;
+}
+
+.shade-logo a{
+    position: absolute;
+    font-size: 0.8rem;
+}
+
+
+
+
+.button {
+      display: flex;
+      width: 100%;
+      background-color: var(--textdetail);
+      color: var(--formbackground);
+      border: none;
+      padding-left: 1vw;
+      padding-bottom: 1vw;
+      padding-top: 1.22rem;
+      padding-bottom: 1.22rem;
+      border-bottom: 1px solid var(--formbackground);
+      align-items: center;
+      justify-content:center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+
+.button a {
+    text-decoration: none;
+    color: var(--formbackground);
+}
+
+.button img {
+    height: 2rem;
+    padding-top: 0.3rem;
+}
+
+    .menubutton {
+        display: none;
+    }
+
+    .menumobil {
+        display: none;
+    }
+
+.sources {
+  scroll-snap-type: y mandatory;
+        line-height: 120%;
+}
+
+.source-item {
+  scroll-snap-align: start;
+    scroll-margin-top: 5rem;
+  padding: 1rem 0;
+}
+
+sup a {
+  text-decoration: none;
+}
+
+sup[data-source] {
+  scroll-margin-top: 5rem;
+}
+
+.text li {
+    list-style: none;
+}
+
+.back {
+   text-decoration: none;
+       color: var(--formbackground);
+       border: 1px solid var(--formbackground);
+       border-radius: 25px;
+       padding-top: 1px;
+       padding-right: 4px;
+       padding-left: 4px;
+       padding-bottom: 1px;
+}
+
+
+/* wetter liste */
+
+.currently {
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.temptoday li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temptoday ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 7vw;
+}
+
+.currently * {
+    font-size: 0.8rem;
+}
+
+
+  /* wetter liste ende */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    
+    .layout {
+        width: 100dvw;
+        line-height: 120%;
+    }
+
+    * {
+        font-size: 1.12rem;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menubutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
+    }
+
+    .menubutton img {
+     height: 1.22rem;
+     display: block;
+    }
+
+    .x {
+        display: none;
+        font-size: 1.75rem;
+        line-height: 100%;
+        margin-bottom: 0.12rem;
+    }
+
+    .menumobil {
+        display: none;
+        position: fixed;
+        margin-top: 2.44rem;
+        backdrop-filter: blur(20px);
+        z-index: 20;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100dvw;
+    }
+
+    .menumobil a{
+        background-color: var(--hellgrau);
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0.61rem;
+        padding-top: 0.61rem;
+        text-decoration: none;
+        color: var(--formbackground);
+    }
+
+    .close {
+        height: 450px;
+        width: 100dvw;
+    }
+
+
+
+}

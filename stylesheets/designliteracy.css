@@ -1,0 +1,641 @@
+:root {
+    --hellgrau: rgb(231, 231, 231);
+    --background: rgb(33, 33, 33);
+    --formbackground: rgb(0, 0, 0);
+    --text: rgb(255, 255, 255);
+    --border: rgb(174, 174, 174);
+    --punkt: rgb(182, 117, 255);
+    --textdetail: rgb(153, 92, 222);
+    --textdetail2: rgb(220, 76, 76);
+    --textdetail3: rgb(93, 109, 22);
+    --textdetail4: rgb(213, 220, 76);
+    --textdetail5: rgb(221, 183, 231);
+    --hellgrau: rgb(227, 227, 227);
+    --cycling: rgb(131, 201, 155);
+    --workshopbackground: rgb(255,255,255);
+    --textworkshop: black;
+    --highlightworkshop: rgb(57.8% 58.4% 90.4%);
+}
+
+@font-face {
+  font-family: favorit;
+  src: url(../fonts/ABCFavoritEdu-Regular.woff2);
+}
+  
+#weis {
+  background-color: var(--workshopbackground);
+  border: solid 5px var(--highlightworkshop);
+}
+  .input {
+  background-color: var(--highlightworkshop);
+  }
+
+  .input p {
+  color: var(--textworkshop);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  line-height: 120%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  }
+
+  .form-group p {
+    color: var(--textworkshop);
+  line-height: 120%;
+  }
+
+
+label {
+    line-height: 120%;
+}
+
+sup {
+    font-size: 0.8rem;
+    line-height: 100%;
+}
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.22rem;
+    font-family: favorit;
+  }
+
+  header {
+  width: 100dvw;
+  position: fixed;
+  height: 2.44rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-bottom: 1px solid var(--workshopbackground);
+  backdrop-filter: blur(20px);
+  color: var(--textworkshop);
+  }
+
+  header a {
+  text-decoration: none;
+  color: var(--textworkshop);
+  }
+
+  .menubutton {
+  display: none;
+  }
+
+  .menumobil {
+  display: none;
+  }
+
+  header img {
+    filter: invert();
+  }
+
+  body {
+  overflow-x: hidden;
+  }
+
+
+
+  
+
+  header {
+  width: 100dvw;
+  background-color: var(--workshopbackground);
+  color: var(--textworkshop);
+  position: fixed;
+  height: 2.44rem;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  padding-left: 1vw;
+  flex-direction: row;
+  }
+
+  .intro {
+  background-color: var(--highlightworkshop);
+  }
+
+  .intro p {
+  color: var(--textworkshop);
+  padding-top: 3rem;
+  padding-bottom: 0.6rem;
+  line-height: 120%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  }
+
+
+
+
+  .layoutseite, .einreichseite {
+  width: 100dvw;
+  background-color: var(--hellgrau);
+  display: flex;
+  justify-content: center;
+  }
+
+
+
+
+  .layout {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--workshopbackground);
+  max-width: 800px;
+  }
+
+  .rechner {
+  transform-origin: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .aim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+
+  .rechenscheibe {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  }
+
+  #rechnertext {
+  position: relative;
+  }
+
+  p {
+  color: #ccc;
+  }
+
+  /* #rotationAngle {
+  transform: rotate(-90deg);
+  position: absolute;
+  transform-origin: bottom right;
+  right: 0;
+  text-align: right;
+  border: none;
+  color: var(--textdetail);
+  font-size: 1rem;
+  width: 100%;
+  } */
+
+  #rotationAngle {
+  display: none;
+  }
+
+  .matrix {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  }
+
+  .matrixzeileoben, .matrixzeileunten {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .matrix p {
+  font-size: 1rem;
+  }
+
+
+
+
+  .form-group {
+  background-color: var(--workshopbackground);
+  border-bottom: 1px solid var(--textworkshop);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1vw;
+  padding: 1vw;
+  }
+
+  .form-group input {
+  max-width: 100%;
+  }
+
+  .form-group label {
+  color: var(--textworkshop);
+  }
+
+  #bild input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  }
+
+  .bildcontainer {
+  display: flex;
+  justify-content: center ;
+  }
+
+  .bildcontainer img {
+  max-height: 50vh;
+  max-width: 50vh;
+  }
+
+
+
+
+  input, textarea {
+  background-color: var(--workshopbackground);
+  border: 1px solid var(--textworkshop);
+  color: var(--textworkshop);
+  line-height: 120%;
+  }
+
+  input {
+      min-height: 1.22rem;
+  }
+
+  textarea {
+    height: 6rem;
+  }
+
+  .options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  }
+
+  .options input {
+  appearance: none;
+
+  border-radius: 25%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999999;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+  }
+
+
+
+
+
+ 
+
+  button {
+  display: block;
+  width: 100%;
+  background-color: var(--highlightworkshop);
+  color: var(--formbackground);
+  border: none;
+  cursor: pointer;
+  padding-left: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1.22rem;
+  padding-bottom: 1.22rem;
+  }
+
+
+
+
+  .feedback_seite {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 2.44rem;
+    font-family: routed-gothic;
+    display: flex;
+    justify-content: center;
+    background-color: var(--hellgrau);
+}
+
+.feedback_seite p {
+    color: var(--textworkshop);
+}
+
+.feedback_text {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.44rem;
+    background-color: var(--workshopbackground);
+    width: 800px;
+}
+
+.feedback_text a {
+    text-decoration: none;
+    color: var(--textworkshop);
+}
+
+.feedback_optionen {
+    background-color: var(--highlightworkshop);
+    padding: 1vw;
+}
+
+
+
+
+
+.demolayout {
+    height:100vh;
+    display:flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+
+#eintragsliste {
+    background: var(--workshopbackground);
+    overflow-y:auto;
+    position:relative;
+    margin-top: 2.44rem;
+    width: 100%;
+    padding: 1vw;
+}
+
+.buttons {
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    width: 100%;
+    padding: 1vw;
+    bottom: 0;
+    background-color: var(--workshopbackground);
+}
+
+
+
+
+
+#collapseAll, #preview, #zine {
+    background: var(--highlightworkshop);
+    border:none;
+    padding:0.3rem 0.6rem;
+    cursor:pointer;
+    font-size:0.9rem;
+    color: var(--textworkshop);
+}
+
+
+.entry {
+    transition:background 0.2s, border-color 0.2s;
+    border: 1px solid var(--textworkshop);
+    padding-top: 0.61rem;
+    padding-bottom: 0.61rem;
+    margin-bottom: 1vw;
+}
+
+.entry h3 {
+    padding-left: 1vw;
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--textworkshop);
+}
+
+.entry-header {
+    margin:0;
+    cursor:pointer;
+    user-select:none;
+    display:flex;
+    align-items:center;
+}
+
+
+.entry-header::before {
+    content:">";
+    display:inline-block;
+    margin-right:0.5rem;
+    transition:transform 0.2s;
+    font-size: 0.7rem;
+}
+
+.entry.expanded .entry-header::before {
+    transform:rotate(90deg);
+}
+
+.entry-content {
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.35s ease;
+    padding-left: 1vw;
+    width: 90%;
+}
+
+span {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.field {
+    color: var(--textworkshop);
+}
+
+.field span, .systemmodell {
+  padding-top: 3rem;
+}
+
+.field p {
+  color: var(--textworkshop);
+}
+
+.regel-text, .system-text {
+  background-color: var(--hellgrau);
+  padding: 1vw;
+}
+
+.regel-name, .system-name {
+  padding: 1vw;
+  padding-top: 2vw;
+}
+
+.fazit-name {
+  padding-top: 3rem;
+  padding-bottom: 1vw;
+}
+
+#reflexion {
+  padding: 1vw;
+
+}
+
+#systemmodell, #fazit {
+  padding-top: 2.44rem;
+}
+
+.entry.expanded .entry-content {
+    max-height:100000px;
+}
+
+.abstand {
+    height: 10vh;
+}
+
+
+.entry img {
+      max-width:100%; height:auto;
+      max-width: 30%;
+}
+
+
+
+.field { 
+    margin:0.2rem 0; word-break:break-word;
+}
+
+.results {
+  display: none;
+}
+
+
+  /* Media Queries */
+  /* Mobil Portrait */
+
+  @media only screen and (max-width: 1024px) {
+
+  .layout {
+  max-width: 100dvw;
+  }
+
+  .form-group {
+  padding-top: 1vw;
+  padding-bottom: 2.44rem;
+  }
+
+  .intro {
+  max-width: 100dvw;
+  }
+
+  .menu {
+  display: none;
+  }
+
+  .menubutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1vw;
+  }
+
+  .menubutton img {
+  height: 1.22rem;
+  display: block;
+  }
+
+  .x {
+  display: none;
+  font-size: 1.75rem;
+  line-height: 100%;
+  margin-bottom: 0.12rem;
+  }
+
+  .menumobil {
+  display: none;
+  position: fixed;
+  margin-top: 2.44rem;
+  backdrop-filter: blur(20px);
+  z-index: 20;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100dvw;
+  }
+
+  .menumobil a{
+  background-color: var(--hellgrau);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.61rem;
+  padding-top: 0.61rem;
+  text-decoration: none;
+  color: var(--formbackground);
+  }
+
+  .close {
+  height: 450px;
+  width: 100dvw;
+  }
+
+ header {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 3rem;
+ }
+
+ header a {
+  display: none;
+ }
+
+  .results {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1vw;
+  color: var(--textworkshop);
+  padding: 1vw;
+
+  }
+
+  .feedback_text {
+    width: 100dvw;
+  }
+
+  .upload {
+        margin-top: 5vh;
+  }
+
+
+  .feedback_seite p {
+    font-size: 2.44rem;
+    text-align: center;
+  }
+
+  .feedback_seite a {
+        font-size: 2.44rem;
+  }
+
+  #eintragsliste {
+    margin-top: 4rem;
+}
+
+#logofarbe {
+  color: var(--highlightworkshop);
+}
+
+
+
+
+
+
+
+
+
+  }
+
+  
+
+
+
+
+
+

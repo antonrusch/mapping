@@ -1,0 +1,282 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: favorit;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1.22rem;
+}
+
+
+header {
+    width: 100dvw;
+    position: fixed;
+    height: 2.44rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-bottom: 1px solid var(--formbackground);
+    backdrop-filter: blur(20px);
+    color: var(--formbackground);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--formbackground);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+.layout {
+    padding-top: 2.44rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 80%;
+}
+
+.grid > * {
+    min-width: 0;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.aside {
+    height: auto;
+    width: 20%;
+}
+
+
+.text,
+.quote {
+    font-size: 1.22rem;
+    line-height: 120%;
+}
+
+.quote {
+    padding: 1vw;
+    border-bottom: 1px solid var(--formbackground);
+}
+
+.text {
+    padding: 1vw;
+    padding-bottom: 2.44rem;
+    border-right: 1px solid var(--formbackground);
+    border-bottom: 1px solid var(--formbackground);
+}
+
+.text li {
+    list-style: none;
+}
+
+.headline {
+    padding: 1vw;
+    line-height: 120%;
+    border-right: 1px solid var(--formbackground);
+    border-bottom: 1px solid var(--formbackground);
+    background-color: var(--cycling);
+    min-width: 0;
+}
+
+.verweis {
+    margin-top: 1.22rem;
+}
+
+
+sup {
+    font-size: 0.8em;
+    line-height: 0.8;
+}
+
+sup a {
+    text-decoration: none;
+    color: var(--textdetail);
+    position: relative;
+    top: 0.2rem;
+}
+
+sup[data-source] {
+    scroll-margin-top: 5rem;
+}
+
+
+.sources {
+    scroll-snap-type: y mandatory;
+}
+
+.source-item {
+    scroll-snap-align: start;
+    scroll-margin-top: 5rem;
+    padding: 1rem 0;
+}
+
+
+.back {
+    text-decoration: none;
+    color: var(--formbackground);
+    border: 1px solid var(--formbackground);
+    border-radius: 25px;
+    padding: 0.5px 4px;
+    position: relative;
+    top: -0.3rem;
+    font-size: 60%;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    color: var(--formbackground);
+    margin-top: 1.22rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button a {
+    text-decoration: none;
+    color: var(--text);
+    border-radius: 20px;
+    background-color: var(--textdetail);
+    font-family: routed-gothic;
+    border: 1px solid var(--formbackground);
+    padding: 0.25rem 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.button img {
+    height: 2rem;
+    padding-top: 0.3rem;
+}
+
+#institut {
+    margin-top: 1.22rem;
+}
+
+
+.menubutton,
+.menumobil {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    html {
+        font-size: 100%;
+    }
+
+    .text,
+    .quote {
+        font-size: 1.1rem;
+    }
+
+
+    .menu {
+        display: none;
+    }
+
+    .menubutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
+    }
+
+    .menubutton img {
+        height: 1.22rem;
+        display: block;
+    }
+
+    .x {
+        display: none;
+        font-size: 1.75rem;
+        line-height: 100%;
+        margin-bottom: 0.12rem;
+    }
+
+    .menumobil {
+        display: none;
+        position: fixed;
+        margin-top: 2.44rem;
+        backdrop-filter: blur(20px);
+        z-index: 20;
+        height: 100%;
+        flex-direction: column;
+        width: 100dvw;
+    }
+
+    .menumobil a {
+        background-color: var(--hellgrau);
+        width: 100%;
+        text-align: center;
+        padding: 0.61rem 0;
+        text-decoration: none;
+        color: var(--formbackground);
+        font-family: routed-gothic-wide;
+    }
+
+    .close {
+        height: 450px;
+        width: 100dvw;
+    }
+
+
+    .grid {
+        grid-template-columns: 1fr 8fr;
+        width: 100%;
+    }
+
+    .aside,
+    .element {
+        display: none;
+    }
+
+    .headline {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        padding-top: 0.5rem;
+    }
+
+    .button {
+        padding: 1vw;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 1.12rem;
+    }
+
+    .back {
+        top: -0.1rem;
+    }
+
+    .text {
+        padding-right: 2rem;
+        width: auto;
+    }
+
+    #sources-list {
+        word-wrap: break-word;
+    }
+
+    .button a {
+        font-size: 80%;
+    }
+}

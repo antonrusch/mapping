@@ -1,0 +1,170 @@
+:root {
+    --hellgrau: rgb(231, 231, 231);
+    --background: rgb(33, 33, 33);
+    --formbackground: rgb(0, 0, 0);
+    --text: rgb(255, 255, 255);
+    --border: rgb(174, 174, 174);
+    --punkt: rgb(182, 117, 255);
+    --textdetail: rgb(138, 177, 125);
+    --textdetail2: rgb(169, 183, 208);
+    --textdetail3: rgb(119, 106, 134);
+    --textdetail4: rgb(152, 89, 72);
+    --textdetail5: rgb(208, 152, 222);
+    --textdetail6: rgb(190, 139, 85);
+    --textdetail7: rgb(224, 195, 108);
+    --textdetail8: rgb(139, 192, 95);
+    --textdetail9: rgb(136, 192, 209);
+    --hellgrau: rgb(227, 227, 227);
+    --cycling: rgb(84.6% 82.1% 41.2%);
+}
+
+@font-face {
+  font-family: favorit;
+  src: url(../fonts/ABCFavoritEdu-Regular.woff2);
+}
+
+
+@font-face {
+  font-family: routed-gothic;
+  src: url(../fonts/routed-gothic.woff2);
+}
+
+@font-face {
+  font-family: routed-gothic-wide;
+  src: url(../fonts/routed-gothic-wide);
+}
+
+@font-face {
+  font-family: routed-gothic-narrow;
+  src: url(../fonts/routed-gothic-narrow.woff2);
+}
+
+@font-face {
+  font-family: routed-gothic-narrow-file;
+  src: url(https://zeichensaal.xyz/fonts/routed-gothic-narrow.woff2);
+}
+
+
+.farbe.choice-A { 
+  background-color: var(--textdetail);
+  fill: var(--textdetail);
+  }
+  .farbe.choice-B { 
+  background-color: var(--textdetail2);
+  fill: var(--textdetail2);
+  }
+  .farbe.choice-C { 
+  background-color: var(--textdetail3);
+  fill: var(--textdetail3);
+  }
+  .farbe.choice-D { 
+  background-color: var(--textdetail4);
+  fill: var(--textdetail4);
+  }
+
+  .farbe.choice-E {
+    background-color: var(--textdetail6);
+    fill: var(--textdetail6);
+  }
+  .farbe.choice-F {
+    background-color: var(--textdetail7);
+    fill: var(--textdetail7);
+  }
+
+    .farbe.choice-G {
+    background-color: var(--textdetail8);
+    fill: var(--textdetail8);
+  }
+
+    .farbe.choice-H {
+    background-color: var(--textdetail9);
+    fill: var(--textdetail9);
+  }
+
+
+
+
+  .farbetext.choice-A { 
+  color: var(--textdetail);
+  }
+  .farbetext.choice-B { 
+  color: var(--textdetail2);
+  }
+  .farbetext.choice-C { 
+  color: var(--textdetail3);
+  }
+  .farbetext.choice-D { 
+  color: var(--textdetail4);
+  }
+  .farbetext.choice-E {
+    color: var(--textdetail6);
+  }
+    .farbetext.choice-F {
+    color: var(--textdetail7);
+  }
+    .farbetext.choice-G {
+    color: var(--textdetail8);
+  }
+    .farbetext.choice-H {
+    color: var(--textdetail9);
+  }
+
+
+    .option input#choiceA:checked {
+  border: 8px solid var(--textdetail);
+  }
+  .option input#choiceB:checked {
+  border: 8px solid var(--textdetail2);
+  }
+  .option input#choiceC:checked {
+  border: 8px solid var(--textdetail3);
+  }
+  .option input#choiceD:checked {
+  border: 8px solid var(--textdetail4);
+  }
+  .option input#choiceE:checked {
+      border: 8px solid var(--textdetail6);
+  }
+    .option input#choiceF:checked {
+      border: 8px solid var(--textdetail7);
+  }
+    .option input#choiceG:checked {
+      border: 8px solid var(--textdetail8);
+  }
+    .option input#choiceH:checked {
+      border: 8px solid var(--textdetail9);
+  }
+
+/* close_beschreibung */
+
+  .layout:has(#choiceA:checked) .close_beschreibung {
+  border-color: var(--textdetail);
+}
+
+.layout:has(#choiceB:checked) .close_beschreibung {
+  border-color: var(--textdetail2);
+}
+
+.layout:has(#choiceC:checked) .close_beschreibung {
+  border-color: var(--textdetail3);
+}
+
+.layout:has(#choiceD:checked) .close_beschreibung {
+  border-color: var(--textdetail4);
+}
+
+.layout:has(#choiceE:checked) .close_beschreibung {
+  border-color: var(--textdetail6);
+}
+
+.layout:has(#choiceF:checked) .close_beschreibung {
+  border-color: var(--textdetail7);
+}
+
+.layout:has(#choiceG:checked) .close_beschreibung {
+  border-color: var(--textdetail8);
+}
+
+.layout:has(#choiceH:checked) .close_beschreibung {
+  border-color: var(--textdetail9);
+}

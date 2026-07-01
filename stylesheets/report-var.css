@@ -1,0 +1,67 @@
+:root {
+    --hellgrau: rgb(231, 231, 231);
+    --background: rgb(33, 33, 33);
+    --formbackground: rgb(0, 0, 0);
+    --text: rgb(255, 255, 255);
+    --border: rgb(174, 174, 174);
+    --punkt: rgb(182, 117, 255);
+    --textdetail: rgb(153, 92, 222);
+    --textdetail2: rgb(97.2% 43.6% 33.2%);
+    --textdetail3: #d5aa00;
+    --textdetail4: rgb(49% 62.7% 0%);
+    --textdetail5: rgb(221, 183, 231);
+    --hellgrau: rgb(227, 227, 227);
+    --cycling: rgb(131, 201, 155);
+    --dunkelgrau: rgb(40, 40, 40);
+}
+
+@font-face {
+  font-family: routed-gothic;
+  src: url(../fonts/routed-gothic.woff2);
+}
+
+@font-face {
+  font-family: routed-gothic-wide;
+  src: url(../fonts/routed-gothic-wide);
+}
+
+@font-face {
+  font-family: routed-gothic-narrow;
+  src: url(../fonts/routed-gothic-narrow.woff2);
+}
+
+@font-face {
+  font-family: routed-gothic-narrow-file;
+  src: url(https://zeichensaal.xyz/fonts/routed-gothic-narrow.woff2);
+}
+
+
+.farbe.choice-A { 
+  background-color: var(--textdetail);
+  fill: var(--textdetail);
+  }
+  .farbe.choice-B { 
+  background-color: var(--textdetail2);
+  fill: var(--textdetail2);
+  }
+  .farbe.choice-C { 
+  background-color: var(--textdetail3);
+  fill: var(--textdetail3);
+  }
+  .farbe.choice-D { 
+  background-color: var(--textdetail4);
+  fill: var(--textdetail4);
+  }
+
+  .farbetext.choice-A { 
+  color: var(--textdetail);
+  }
+  .farbetext.choice-B { 
+  color: var(--textdetail2);
+  }
+  .farbetext.choice-C { 
+  color: var(--textdetail3);
+  }
+  .farbetext.choice-D { 
+  color: var(--textdetail4);
+  }
